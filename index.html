@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../tipCalculators/style.css"> 
+</head>
+<body>
+    <div class="container">
+      <h1>TIP CALCULATOR</h1>
+      <form>
+        <div class="div1">
+            <p>Enter bill amount</p>
+            <p class="input">
+                $<input type="number" name="" id="totalbill" placehoslder="000">
+            </p>
+        </div>
+
+        <div class="div1">
+           <p>choose your tip</p>
+          <select name="" id="tippercentage">
+            <option value="0">select the percent</option>
+            <option value="0.3">30%</option>
+            <option value="0.2">20%</option>
+            <option value="0.15">15%</option>
+            <option value="0.1">10%</option>
+            <option value="0.05">5%</option>
+          </select>
+      </div>
+
+      </form>
+
+      <p>split the bill</p>
+      <input type="number" id="split"><br>
+      <button id="calculate">calculate</button>
+
+      <div class="totalTip">
+        <p>Total per person</p>
+        <p class="tip"> $ <span id="tip">0.00</span></p>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="../tipCalculators/calcu.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-color: hsl(0, 0%, 98%);
+    font-size:22px;
+    position:relative;
+}
+.container{
+    position:absolute;
+    left:38%;
+    top:8%;
+    width:450px;
+    background-color: hwb(0 100% 0%);
+    border-radius: 18px;
+    text-align:center;
+    box-shadow: 1px 1px 10px;
+}
+h1{
+    background-color: hwb(154 81% 4%);
+    padding:10px;
+    font-size: 28px;
+    border-radius:18px;
+}
+p{
+    color:hwb(0 49% 51%);
+}
+.div1{
+    margin:25px;
+}
+input{
+    border:none;
+    outline:none;
+    text-align:center;
+    border-bottom: 1px solid #16a465;
+    color:#16a465;
+    font-size:28px;
+    margin-top:20px;
+    /* width:300px;
+    margin-left:55px; */
+
+}
+select{
+    border:none;
+    border:1px solid #16a465;
+    color:hwb(0 49% 51%);
+    outline:none;
+    text-align:center;
+    margin-top:20px;
+    padding:11px 34px;
+    border-radius: 25px;
+    width:75%;
+}
+#calculate{
+    color:white;
+    background-color: #16a465;
+    border:1px solid transparent;
+    font-size: 17px;
+    padding:14px 29px;
+    border-radius:25px;
+    margin:25px;
+    /* transition:all.3s ease; */
+}
+button#calculate:hover{
+    color:#16a465;
+    border-radius:#16a465;
+    background-color: white;
+
+}
+.totalTip{
+    background-color: #cef5e4;
+    border-radius:18px;
+    padding: 25px 0 35px;
+}
+p.tip{
+    font-size:38px;
+    color:#009855;
+    margin-top:10px;
+}
+/* #totalbill{
+    border:none;
+    outline:none;
+} */
