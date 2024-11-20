@@ -8,10 +8,21 @@
     let split = parseInt(document.getElementById('split').value);
 
     
-    if (isNaN(totalBill) || isNaN(tipPercentage) || isNaN(split) )
-    {//|| totalBill <= 0 || split <= 0) {//
-        alert('Please enter valid values for all fields.');
-        return;
+    // if (isNaN(totalBill) || isNaN(tipPercentage) || isNaN(split) )
+    // {
+    //     alert('Please enter valid values for all fields.');
+        
+    //     return;
+    // }
+    
+    if(isNaN(split)||totalBill<0)
+    {
+      split=1;
+    }
+    if(isNaN(totalBill)||totalBill<0)
+    {
+      alert("please enter the value");
+      
     }
 
     
